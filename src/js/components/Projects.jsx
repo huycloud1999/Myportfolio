@@ -1,7 +1,8 @@
-import React from 'react'
-import ProBox from './ProBox';
-import img from '../../assets/imgs/hehe.gif'
-import '../../css/styles/stylesComp/_project.scss'
+import React from "react";
+import ProBox from "./ProBox";
+import img from "../../assets/imgs/sb-shopping-frontend.vercel.app_.png";
+import img1 from "../../assets/imgs/todo-list-eight-ochre.vercel.app_.png";
+import "../../css/styles/stylesComp/_project.scss";
 function Projects() {
   return (
     <>
@@ -12,26 +13,24 @@ function Projects() {
             <h3>Each project is a unique piece of development 🧩</h3>
             <div className="projects-grid">
               <ProBox
-                title="Car Rental"
+                title="E-commerce"
                 img={img}
-                description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
-                techno1="React"
+                description="With a focus on simplicity and clean design, this store prioritizes user experience, helping customers easily find and purchase the products they need. It is responsive, ensuring compatibility with various screen sizes."
+                techno1="NextJS"
                 techno2="SCSS"
-                code="#"
-                demo="#"
-                scrollY="-83%"
-                icon="🚗"
+                code="https://github.com/huycloud1999/SB_shopping"
+                demo="https://sb-shopping-frontend.vercel.app/"
+                icon="🏪"
               />
-                     <ProBox
-                title="Car Rental"
-                img={img}
-                description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
+              <ProBox
+                title="TodoList"
+                img={img1}
+                description="A user-friendly web to-do list app for efficient task management, offering features like task creation, organization, deadlines, and real-time updates."
                 techno1="React"
-                techno2="SCSS"
-                code="#"
-                demo="#"
-                scrollY="-83%"
-                icon="🚗"
+                techno2="Tailwindcss"
+                code="A user-friendly web to-do list app for efficient task management, offering features like task creation, organization, deadlines, and real-time updates."
+                demo="https://todo-list-eight-ochre.vercel.app/"
+                icon="📋"
                 cName="reversed-proj"
               />
             </div>
@@ -40,7 +39,7 @@ function Projects() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

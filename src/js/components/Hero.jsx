@@ -7,7 +7,7 @@ import react from "../../assets/imgs/react.svg";
 import scss from "../../assets/imgs/scss.svg";
 import tailwind from "../../assets/imgs/tailwind.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub,faFacebook } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faFacebook } from "@fortawesome/free-brands-svg-icons";
 function Hero() {
   const skillsIcons = [
     {
@@ -42,25 +42,28 @@ function Hero() {
           <div className="content">
             <div className="heroMain">
               <div className="heroText">
-              
-                <h1> <span>Front-End React</span> Developer </h1>
-    
-              
+                <h1>
+                  {" "}
+                  <span>Front-End React</span> Developer{" "}
+                </h1>
+
                 <p>
                   Hi, I'm Bùi Quang Huy. A passionate{" "}
                   <span>Front-end React Developer</span> in Ha Noi,Viet Nam . 📍
                 </p>
                 <div className="icon">
-                  <a href="https://www.facebook.com/huycloud1999">
-                  <FontAwesomeIcon icon={faGithub} className="iconContact" />
+                  <a href="https://github.com/huycloud1999 ">
+                    <FontAwesomeIcon icon={faGithub} className="iconContact" />
                   </a>
-                  <a href="https://github.com/huycloud1999">
-                  <FontAwesomeIcon icon={faFacebook} className="iconContact"   /> 
+                  <a href="https://www.facebook.com/huycloud1999">
+                    <FontAwesomeIcon
+                      icon={faFacebook}
+                      className="iconContact"
+                    />
                   </a>
                 </div>
- 
               </div>
-              < div className="heroimg"></div>
+              <div className="heroimg"></div>
             </div>
             <div className="skills">
               <p>Tech stack</p>
