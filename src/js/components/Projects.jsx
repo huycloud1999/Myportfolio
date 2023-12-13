@@ -2,6 +2,7 @@ import React from "react";
 import ProBox from "./ProBox";
 import img from "../../assets/imgs/sb-shopping-frontend.vercel.app_.png";
 import img1 from "../../assets/imgs/todo-list-eight-ochre.vercel.app_.png";
+import img2 from "../../assets/imgs/kaka.png";
 import "../../css/styles/stylesComp/_project.scss";
 function Projects() {
   return (
@@ -22,6 +23,19 @@ function Projects() {
                 demo="https://sb-shopping-frontend.vercel.app/"
                 icon="🏪"
               />
+
+              <ProBox
+                title="TodoList"
+                img={img2}
+                description="Building a social networking system for travel enthusiasts, allowing them to share details
+                of their journeys."
+                techno1="NextJS"
+                techno2="SCSS"
+                code="https://github.com/X-Career/X17-Project-HDT"
+                demo="• https://x17-project-hdt.vercel.app/"
+                icon="🏖️"
+                cName="reversed-proj"
+              />
               <ProBox
                 title="TodoList"
                 img={img1}
@@ -31,7 +45,6 @@ function Projects() {
                 code="A user-friendly web to-do list app for efficient task management, offering features like task creation, organization, deadlines, and real-time updates."
                 demo="https://todo-list-eight-ochre.vercel.app/"
                 icon="📋"
-                cName="reversed-proj"
               />
             </div>
           </div>
